@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    display: flex;
+    position: relative;
+}
+.navigation::before{
+    content: "";
+    background-color: rgb(10, 10, 10);
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#logo{
+    width: 240px;
+   
+}
+#logo img{
+    width: 40%;
+    height: 91%;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.navbar{
+    display: flex;
+    margin: 20px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    justify-content: center;
+}
+.navbar li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar li :hover{
+    background-color: rgb(83, 72, 72);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#back{
+    margin: 30%;
+}
+
+.h-primary{
+    text-align: center;
+    font-size: 34px;
+    margin: -70px;
+    
+}
+.h-primary h1{
+    margin: 0px;
+    padding: 70px;
+    font-family: 'Oswald', sans-serif;
+}
+.p-primary{
+    text-align: center;
+    font-size: 23px;
+    margin: 26px;
+    padding: 30px;
+}
+.p-primary p{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn{
+    background-color: Brown;
+    color: beige;
+    margin: 6px 600px;
+    border-radius: 10px;
+    width: 115px;
+    height: 50px;
+    transition: transform 0.5s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: coral;
+    color: black;
+    transform: translateY(-5px);
+}
+.primary::before{
+    content: "";
+    position: absolute;
+    background: url(background.jpg) 0px 0px / cover no-repeat;
+    height: 475px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0px;
+}
+.secondary{
+    text-align: center;
+   
+}
+.secondary h1{
+    margin-top: 50px;
+    font-size: 3.2rem;
+   
+}
+.secondarypage{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fdfdfd;
+}
+.Box-Secondary{
+    border: 2px solid brown;
+    width: 300px;
+    height: 316px;
+    margin: 35px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: rgb(236, 201, 201);
+    transition: transform 0.5s;
+}
+.Box-Secondary img{
+    width: 200px;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+}
+.box1 p{
+    margin-top: 70px;
+}
+.Box-Secondary:hover{
+    transform: translateY(-10px);
+}
+.Box-Secondary h3{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.customers h1{
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+.customers::before{
+    content: "";
+    background-image: url('vegetable.jpg');
+    position: absolute;
+    height: 245px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.MyCustomers{
+    display: flex;
+    margin-top: 30px;
+}
+.CustomersLogo{
+    margin: auto;
+    display: block;
+}
+.CustomersLogo img{
+    height: 110px;
+    width: 150px;   
+}
+.contact h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.8rem;
+}
+.contact::before{
+    content: "";
+    background-image: url('mycontact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 536px;
+    z-index: -1;
+    opacity: 0.5;
+    margin-top: -5px;
+}
+.contactUs input{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 7px;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+#textarea{
+    justify-items: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 7px;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: 1.0rem;
+    font-family: 'Oswald', sans-serif;
+}
+.submit{
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    width: 134px;
+    height: 37px;
+    border-radius: 7px;
+    box-shadow: rgb(24, 23, 23);
+    font-family: 'Oswald', sans-serif;
+    transition: transform 0.5s;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(122, 120, 120);
+    color: rgb(235, 229, 217);
+    transform: translateY(-3px);
+}
+.foot{
+    background-color: black;
+    color: white;
+    margin-top: 3px;
+    text-align: center;
+}
